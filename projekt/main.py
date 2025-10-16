@@ -25,3 +25,11 @@ df.info()
 print(df.isnull().sum())
 print(df.describe())
 print(df.columns)
+
+#wywalenie kolumny condition
+df.drop(columns=["condition"], inplace=True)
+
+#usuniecie wszystkich pustych wierszy z kolumny buildingMaterial
+df = df.dropna(subset=["buildingMaterial"])
+
+print(df.isnull().sum())
