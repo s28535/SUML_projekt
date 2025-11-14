@@ -39,11 +39,11 @@ squareMeters = st.number_input("Podaj ilość metrów kwadratowych")
 
 roomAmount = st.selectbox("Wybierz liczbę pokoi: ", ['1','2','3','4','5','6','7'])
 
-parkingSpaces = st.checkbox("miejscaParkingowe")
+parkingSpaces = st.checkbox("Z miejscem parkingowym")
 
 if st.button('Oblicz cenę apartamentu'):
     calculatedPrice =((float(squareMeters) * 0.65) + (float(squareMeters) * float(roomAmount) * 0.20) + (float(squareMeters) * float(parkingSpaces) * 0.15) - (float(squareMeters) * float(distanceFromCenter))) * 17932
 
-    st.write("Cena apartamentu: ",int(calculatedPrice))
+    st.success("Cena apartamentu: " + f"{int(calculatedPrice):,}".replace(",", " ") + " zł")
 
 
