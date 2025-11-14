@@ -30,13 +30,20 @@ if map and map.get("last_clicked"):
     xDistanceSquare = (x - centerX)**2
     yDistanceSquare = (y - centerY)**2
     distanceFromCenter = math.sqrt(xDistanceSquare + yDistanceSquare)
-    st.write(f"Odległość od centrum: {distanceFromCenter}")
+    st.write(f"Odległość od centrum: ",distanceFromCenter)
+
 
 
 
 squareMeters = st.number_input("Podaj ilość metrów kwadratowych")
 
+roomAmount = st.selectbox("Wybierz liczbę pokoi: ", ['1','2','3','4','5','6','7'])
+
+parkingSpaces = st.checkbox("miejscaParkingowe")
+
 if st.button('Oblicz cenę apartamentu'):
-    st.write("Cena apartamentu: ", squareMeters * 17932)
+    calculatedPrice =((float(squareMeters) * 0.65) + (float(squareMeters) * float(roomAmount) * 0.20) + (float(squareMeters) * float(parkingSpaces) * 0.15) - (float(squareMeters) * float(distanceFromCenter))) * 17932
+
+    st.write("Cena apartamentu: ",int(calculatedPrice))
 
 
