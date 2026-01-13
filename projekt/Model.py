@@ -1,12 +1,14 @@
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+import json
+import numpy as np
 import matplotlib.pyplot as plt
-
 from pathlib import Path
 from datetime import datetime
-
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.metrics import mean_squared_error, mean_absolute_error
+from pycaret.regression import *
 
 class ModelMyNN(nn.Module):
     def __init__(self, in_features=27, h1=27, h2=27, h3=27, out_features=1):
@@ -66,10 +68,73 @@ class ModelMyNN(nn.Module):
         plt.savefig('data/Charts/lossesOverTime.png')
         plt.show()
 
-        Path("data/06_models").mkdir(parents=True, exist_ok=True)
+        Path("data/models").mkdir(parents=True, exist_ok=True)
 
         timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-        model_path = f"data/06_models/MyMM_{timestamp}.pkl"
+        model_path = f"data/models/MyMM_{timestamp}.pkl"
 
         torch.save(self.state_dict(), model_path)
         print(" Model zapisanu: ",model_path)
+
+class AutoML():
+    def testDifrentMLM(self, df):
+        # Podział na zbiór treningowy i testowy
+        train_df, test_df = train_test_split(df, test_size=0.2, random_state=42)
+
+        print("Treningowy zbiór danych:")
+        print(train_df.head())
+
+        # PyCaret setup
+        setup(data=train_df, target='price', session_id=42)
+
+        # Porównanie modeli
+        best = compare_models()
+        print(f"Najlepszy model: {best}")
+
+        # Generowanie wykresów
+        plots = [
+                 'feature', 'feature_all']
+
+        Path("data/Reporting").mkdir(parents=True, exist_ok=True)
+        for p in plots:
+
+            plot_model(best, plot=p, save=True, display_format='streamlit')
+
+
+
+        # Finalizacja modelu
+        final_model = finalize_model(best)
+
+        # Walidacja krzyżowa
+        cv_scores = cross_val_score(final_model, train_df.drop('price', axis=1),
+                                    train_df['price'], cv=5, scoring='r2')
+        print(f"Walidacja krzyżowa: {cv_scores}, średnia: {np.mean(cv_scores)}")
+
+        # Testowanie na zbiorze testowym
+        X_test = test_df.drop('price', axis=1)
+        y_test = test_df['price']
+        y_pred = final_model.predict(X_test)
+
+        rmse = np.sqrt(mean_squared_error(y_test, y_pred))
+        mae = mean_absolute_error(y_test, y_pred)
+        mape = np.mean(np.abs((y_test - y_pred) / y_test)) * 100
+
+        print(f"Test Metrics -> RMSE: {rmse}, MAE: {mae}, MAPE: {mape}")
+
+        # Zapis wyników do JSON
+        test_metrics = {
+            "RMSE": rmse,
+            "MAE": mae,
+            "MAPE": float(mape)
+        }
+
+        with open('data/reporting/test_metrics.json', 'w') as f:
+            json.dump(test_metrics, f, indent=2)
+
+
+        Path("data/models").mkdir(parents=True, exist_ok=True)
+
+        timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        model_path = f"data/models/AutoML_{timestamp}"
+        save_model(final_model, model_path)
+        print("Model zapisany:", model_path)

@@ -193,8 +193,11 @@ def main ():
     ScoreTrainDF = pd.read_csv("data/model_input/scoreTrain.csv")
 
 
-    model1 = Model.ModelMyNN()
-    model1.trainModel(FeaturesTrainDF, ScoreTrainDF, FeaturesTestDF, ScoreTestDF, 101, scaler_X, scaler_y)
+#    model1 = Model.ModelMyNN()
+ #   model1.trainModel(FeaturesTrainDF, ScoreTrainDF, FeaturesTestDF, ScoreTestDF, 101, scaler_X, scaler_y)
+
+    model2 = Model.AutoML()
+    model2.testDifrentMLM(df)
 
 if __name__ == "__main__":
     main()
