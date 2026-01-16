@@ -107,7 +107,7 @@ def handle_missing_values(df, num_cols, cat_cols):
     if 'buildingMaterial' in df_clean.columns:
         df_clean = df_clean.drop(columns=['buildingMaterial'])
     
-    # type ma 25% braków - utworzę kategorię "unknown"
+    # type ma 25% braków - tworzymy "unknown"
     print("Uzupełnianie type (25% braków) - kategoria 'unknown'")
     df_clean['type'] = df_clean['type'].fillna('unknown')
     
@@ -121,13 +121,8 @@ def handle_missing_values(df, num_cols, cat_cols):
             print(f"  {col}: {missing_count} braków uzupełnionych medianą ({median_val:.2f})")
     
     # Uzupełnianie kategorycznych wartości modą lub "unknown"
-    print("\nUzupełnianie kolumn KATEGORYCZNYCH:")
-    for col in cat_cols:
-        if col not in ['id', 'city'] and col in df_clean.columns and df_clean[col].isnull().sum() > 0:
-            mode_val = df_clean[col].mode()[0] if len(df_clean[col].mode()) > 0 else 'unknown'
-            missing_count = df_clean[col].isnull().sum()
-            df_clean[col] = df_clean[col].fillna(mode_val)
-            print(f"  {col}: {missing_count} braków uzupełnionych wartością '{mode_val}'")
+    print("\nhasElevator: uzupełnianie braków wartością 'yes'")
+    df_clean["hasElevator"] = df_clean["hasElevator"].fillna("yes")
     
     # Sprawdzenie czy są jeszcze braki
     remaining_missing = df_clean.isnull().sum().sum()

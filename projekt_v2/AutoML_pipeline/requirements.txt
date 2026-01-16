@@ -2,4 +2,4 @@ pycaret
 kagglehub
 pandas
 numpy
-joblib
+scikit-learn

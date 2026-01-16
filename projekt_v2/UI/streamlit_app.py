@@ -6,6 +6,8 @@ import folium
 from streamlit_folium import st_folium
 import math
 
+MODEL_NAME = 'apartment_price_model.pkl'
+
 # Konfiguracja strony
 st.set_page_config(page_title="Kalkulator Cen Mieszkań w Warszawie", layout="wide")
 
@@ -17,10 +19,10 @@ st.markdown("---")
 @st.cache_resource
 def load_model():
     try:
-        model = joblib.load('apartment_price_model.pkl')
+        model = joblib.load(MODEL_NAME)
         return model
     except FileNotFoundError:
-        st.error("Model nie został znaleziony. Upewnij się, że plik 'apartment_price_model.pkl' istnieje.")
+        st.error("Model nie został znaleziony. Upewnij się, że plik {MODEL_NAME} istnieje.")
         return None
 
 model = load_model()
@@ -126,7 +128,6 @@ if st.button("Oblicz cenę", type="primary", use_container_width=True):
         ownership_cooperative = 1 if ownership == 'cooperative' else 0
         
         # Tworzenie DataFrame w dokładnej kolejności jaką oczekuje model
-        # Kolejność zgodna z model.feature_names_in_
         df_input = pd.DataFrame({
             'squareMeters': [square_meters],
             'rooms': [rooms],
