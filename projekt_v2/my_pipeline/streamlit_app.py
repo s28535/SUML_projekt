@@ -53,18 +53,33 @@ with col1:
 
 with col2:
     st.subheader("Typ i własność")
-    
-    type_building = st.selectbox(
+
+    type_building_options = {
+        "Blok mieszkalny": "blockOfFlats",
+        "Budynek apartamentowy": "apartmentBuilding",
+        "Kamienica": "tenement",
+        "Nieznany": "unknown",
+    }
+
+    ownership_options = {
+        "Własność odrębna": "condominium",
+        "Spółdzielcze": "cooperative",
+    }
+
+    type_building_label = st.selectbox(
         "Typ budynku",
-        ["blockOfFlats", "apartmentBuilding", "tenement", "unknown"],
+        list(type_building_options.keys()),
         index=0
     )
-    
-    ownership = st.selectbox(
+
+    ownership_label = st.selectbox(
         "Forma własności",
-        ["condominium", "cooperative"],
+        list(ownership_options.keys()),
         index=0
     )
+
+    type_building = type_building_options[type_building_label]
+    ownership = ownership_options[ownership_label]
 
 st.markdown("---")
 
@@ -185,8 +200,8 @@ if st.button("Oblicz cenę", type="primary", use_container_width=True):
             st.write(f"**Piętro:** {floor}/{floor_count}")
         
         with info_col2:
-            st.write(f"**Typ budynku:** {type_building}")
-            st.write(f"**Własność:** {ownership}")
+            st.write(f"**Typ budynku:** {type_building_label}")
+            st.write(f"**Własność:** {ownership_label}")
             st.write(f"**Punkty POI w pobliżu:** {poi_count}/7")
         
     except Exception as e:
