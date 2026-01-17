@@ -69,6 +69,14 @@ def train_with_pycaret(df):
     # PyCaret setup
     setup(data=train_df, target="price", session_id=42)
 
+    # Przygotowanie katalogów wyjściowych
+    model_dir = Path("data/model")
+    metrics_dir = Path("data/metrics")
+    charts_dir = Path("data/charts")
+    model_dir.mkdir(parents=True, exist_ok=True)
+    metrics_dir.mkdir(parents=True, exist_ok=True)
+    charts_dir.mkdir(parents=True, exist_ok=True)
+
     # Porównanie modeli
     best = compare_models()
     print(f"Najlepszy model: {best}")
@@ -77,7 +85,7 @@ def train_with_pycaret(df):
     plots = ["feature", "feature_all"]
 
     for p in plots:
-        plot_model(best, plot=p, save=True, display_format="streamlit")
+        plot_model(best, plot=p, save=str(charts_dir), display_format="streamlit")
 
     # Finalizacja modelu
     final_model = finalize_model(best)
@@ -105,12 +113,9 @@ def train_with_pycaret(df):
 
     # Zapis wyników do JSON
     test_metrics = {"RMSE": float(rmse), "MAE": float(mae), "MAPE": float(mape)}
-    metrics_dir = Path("data/metrics")
-    metrics_dir.mkdir(parents=True, exist_ok=True)
     with open(metrics_dir / "test_metrics.json", "w") as f:
         json.dump(test_metrics, f, indent=2)
-
-    save_model(final_model, "apartment_price_model")
+    save_model(final_model, model_dir / "apartment_price_model")
     print("Model zapisany:", "apartment_price_model")
 
 
