@@ -166,9 +166,15 @@ def main ():
     df_list = [pd.read_csv(os.path.join(path, f)) for f in files]
     df = pd.concat(df_list, ignore_index=True)
 
+
+    print("Ilosc danych dla wszystkich miast: " , len(df))
+
     #zostawienie tylko tych wierszy ktore maja "city" == "warszawa"
     df = df[df['city'] == 'warszawa']
 
+    print("Ilosc danych dla wszystkich Warszawy: " , len(df))
+
+    print("Przecietna cena mieszkania", df['price'].mean())
     print(df.info())
     print()
 
@@ -196,8 +202,8 @@ def main ():
 #    model1 = Model.ModelMyNN()
  #   model1.trainModel(FeaturesTrainDF, ScoreTrainDF, FeaturesTestDF, ScoreTestDF, 101, scaler_X, scaler_y)
 
-    model2 = Model.AutoML()
-    model2.testDifrentMLM(df)
+ #   model2 = Model.AutoML()
+ #   model2.testDifrentMLM(df)
 
 if __name__ == "__main__":
     main()

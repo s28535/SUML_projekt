@@ -10,6 +10,7 @@ from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 from pycaret.regression import *
 
+
 class ModelMyNN(nn.Module):
     def __init__(self, in_features=27, h1=27, h2=27, h3=27, out_features=1):
         super().__init__()
@@ -91,9 +92,12 @@ class AutoML():
         best = compare_models()
         print(f"Najlepszy model: {best}")
 
+
+
+
         # Generowanie wykresów
         plots = [
-                 'feature', 'feature_all']
+                 'feature', 'feature_all','error','residuals','learning']
 
         Path("data/Reporting").mkdir(parents=True, exist_ok=True)
         for p in plots:
