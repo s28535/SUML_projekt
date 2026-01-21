@@ -6,6 +6,7 @@ import folium
 from streamlit_folium import st_folium
 from geopy.distance import geodesic
 import math
+import requests
 
 MODEL_PATH = Path("projekt/AutoML_pipeline/data/models/apartment_price_model")
 
@@ -28,29 +29,13 @@ if model is None:
 
 st.header("Wprowadź dane mieszkania")
 
-
-
-
-
-
-
-
-
 centerX = 52.2354167
 centerY = 21.0074722
 xDistanceSquare = 0
 yDistanceSquare = 0
 centre_distance = 0
 
-
-
-
-
-
 m = folium.Map(location=[centerX, centerY], zoom_start=12)
-
-
-
 
 map = st_folium(m, width=700, height=500)
 
@@ -65,13 +50,6 @@ if map.get("last_clicked"):
     yDistanceSquare = (y - centerY)**2
     centre_distance = geodesic((centerX, centerY), (x, y)).kilometers
     st.write(f"Odległość od centrum: ", centre_distance)
-
-
-
-
-
-
-
 
 col1, col2 = st.columns(2)
 
@@ -171,37 +149,36 @@ longitude = CENTER_Y
 
 st.markdown("---")
 
+def sendUserInputs(): return { "type": type_building, "squareMeters": square_meters, "rooms": rooms,
+                               "floor": floor, "floorCount": floor_count, "buildYear": build_year,
+                               "latitude": latitude, "longitude": longitude, "centreDistance": centre_distance,
+                               "poiCount": poi_count, "ownership": ownership, "hasParkingSpace": "yes" if has_parking_space else "no",
+                               "hasBalcony": "yes" if has_balcony else "no", "hasElevator": "yes" if has_elevator else "no",
+                               "hasSecurity": "yes" if has_security else "no", "hasStorageRoom": "yes" if has_storage_room else "no",
+                               "isSchoolNear": 1 if is_school_near else 0, "isClinicNear": 1 if is_clinic_near else 0,
+                               "isPostOfficeNear": 1 if is_post_office_near else 0,
+                               "isKindergartenNear": 1 if is_kindergarten_near else 0,
+                               "isRestaurantNear": 1 if is_restaurant_near else 0, "isCollegeNear": 1 if is_college_near else 0,
+                               "isPharmacyNear": 1 if is_pharmacy_near else 0, "building_age": building_age, "floor_ratio": floor_ratio,
+                               "sqm_per_room": sqm_per_room, }
+
+
 if st.button("Oblicz cenę", type="primary", use_container_width=True):
     try:
-        df_input = pd.DataFrame({
-            "type": [type_building],
-            "squareMeters": [square_meters],
-            "rooms": [rooms],
-            "floor": [floor],
-            "floorCount": [floor_count],
-            "buildYear": [build_year],
-            "latitude": [latitude],
-            "longitude": [longitude],
-            "centreDistance": [centre_distance],
-            "poiCount": [poi_count],
-            "ownership": [ownership],
-            "hasParkingSpace": ["yes" if has_parking_space else "no"],
-            "hasBalcony": ["yes" if has_balcony else "no"],
-            "hasElevator": ["yes" if has_elevator else "no"],
-            "hasSecurity": ["yes" if has_security else "no"],
-            "hasStorageRoom": ["yes" if has_storage_room else "no"],
-            "isSchoolNear": [1 if is_school_near else 0],
-            "isClinicNear": [1 if is_clinic_near else 0],
-            "isPostOfficeNear": [1 if is_post_office_near else 0],
-            "isKindergartenNear": [1 if is_kindergarten_near else 0],
-            "isRestaurantNear": [1 if is_restaurant_near else 0],
-            "isCollegeNear": [1 if is_college_near else 0],
-            "isPharmacyNear": [1 if is_pharmacy_near else 0],
-            "building_age": [building_age],
-            "floor_ratio": [floor_ratio],
-            "sqm_per_room": [sqm_per_room],
-        })
-        predicted_price = model.predict(df_input)[0]
+        predicted_price = 0
+        user_data = sendUserInputs()
+        print("Input nazwa/typ:")
+        for k, v in user_data.items():
+            print(f"{k}: {type(v).__name__}")
+
+        response = requests.post("http://127.0.0.1:8000/predict", json=user_data)
+
+        if response.status_code == 200:
+            result = response.json()["prediction"]
+            predicted_price = result
+        else:
+            st.error("Błąd w komunikacji z backendem.")
+
 
         st.markdown("---")
         st.header("Przewidywana cena mieszkania")
@@ -215,7 +192,7 @@ if st.button("Oblicz cenę", type="primary", use_container_width=True):
         info_col1, info_col2 = st.columns(2)
 
         with info_col1:
-            st.write(f"**Dystans od centrum:** {centre_distance} m²")
+            st.write(f"**Dystans od centrum:** {centre_distance} km")
             st.write(f"**Powierzchnia:** {square_meters} m²")
             st.write(f"**Liczba pokoi:** {rooms}")
             st.write(f"**Rok budowy:** {build_year}")

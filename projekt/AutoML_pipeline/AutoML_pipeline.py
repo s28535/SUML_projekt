@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 import json
 from datetime import datetime
-
+import pickle
 
 def load_data():
     path = kagglehub.dataset_download("krzysztofjamroz/apartment-prices-in-poland")
@@ -55,7 +55,13 @@ def feature_engineering(df):
 
     df_fe = df_fe.drop(columns=cols_to_drop)
 
+    save_dir = "data/readyData"
+    file_path = os.path.join(save_dir, "df_fe.csv")
+    os.makedirs(save_dir, exist_ok=True)
+    df_fe.to_csv(file_path, index=False)
+
     return df_fe
+
 
 
 def train_with_pycaret(df):
@@ -116,6 +122,8 @@ def train_with_pycaret(df):
     with open(metrics_dir / "test_metrics.json", "w") as f:
         json.dump(test_metrics, f, indent=2)
     save_model(final_model, model_dir / "apartment_price_model")
+
+
     print("Model zapisany:", "apartment_price_model")
 
 
