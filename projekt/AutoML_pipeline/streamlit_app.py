@@ -8,24 +8,10 @@ from geopy.distance import geodesic
 import math
 import requests
 
-MODEL_PATH = Path("projekt/AutoML_pipeline/data/models/apartment_price_model")
-
 st.set_page_config(page_title="Kalkulator Cen Mieszkań w Warszawie (AutoML)", layout="wide")
 
 st.title("Kalkulator Cen Mieszkań w Warszawie (AutoML)")
 st.markdown("---")
-
-@st.cache_resource
-def load_trained_model():
-    try:
-        return load_model(str(MODEL_PATH))
-    except Exception as exc:
-        st.error(f"Nie udało się wczytać modelu: {exc}")
-        return None
-
-model = load_trained_model()
-if model is None:
-    st.stop()
 
 st.header("Wprowadź dane mieszkania")
 
@@ -61,8 +47,8 @@ with col1:
 
     build_year = st.number_input("Rok budowy", min_value=1900, max_value=2026, value=2000, step=1)
 
-    floor = st.number_input("Piętro", min_value=0, max_value=50, value=3, step=1)
     floor_count = st.number_input("Liczba pięter w budynku", min_value=1, max_value=50, value=5, step=1)
+    floor = st.number_input("Piętro", min_value=0, max_value=floor_count, value=3, step=1)
 
     sqm_per_room = square_meters / rooms if rooms > 0 else 0
     floor_ratio = floor / floor_count if floor_count > 0 else 0.5

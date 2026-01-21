@@ -3,3 +3,7 @@ kagglehub
 pandas
 numpy
 scikit-learn
+folium
+streamlit_folium
+geopy
+uvicorn
