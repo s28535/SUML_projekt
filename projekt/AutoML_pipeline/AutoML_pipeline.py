@@ -55,10 +55,6 @@ def feature_engineering(df):
 
     df_fe = df_fe.drop(columns=cols_to_drop)
 
-    save_dir = "data/readyData"
-    file_path = os.path.join(save_dir, "df_fe.csv")
-    os.makedirs(save_dir, exist_ok=True)
-    df_fe.to_csv(file_path, index=False)
 
     return df_fe
 
