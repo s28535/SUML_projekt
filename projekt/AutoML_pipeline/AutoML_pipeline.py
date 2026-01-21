@@ -70,7 +70,7 @@ def train_with_pycaret(df):
     setup(data=train_df, target="price", session_id=42)
 
     # Przygotowanie katalogów wyjściowych
-    model_dir = Path("data/model")
+    model_dir = Path("data/models")
     metrics_dir = Path("data/metrics")
     charts_dir = Path("data/charts")
     model_dir.mkdir(parents=True, exist_ok=True)
@@ -79,7 +79,7 @@ def train_with_pycaret(df):
 
     # Porównanie modeli
     best = compare_models()
-    print(f"Najlepszy model: {best}")
+    print(f"Najlepszy models: {best}")
 
     # Generowanie wykresów
     plots = ["feature", "feature_all"]

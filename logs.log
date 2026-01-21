@@ -1,0 +1,642 @@
+2026-01-19 22:01:15,711:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-19 22:01:15,711:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-19 22:01:15,711:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-19 22:01:15,711:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-19 22:01:16,430:INFO:Initializing load_model()
+2026-01-19 22:01:16,430:INFO:load_model(model_name=data\model\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-20 15:31:59,391:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:31:59,391:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:31:59,391:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:31:59,391:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:32:00,216:INFO:Initializing load_model()
+2026-01-20 15:32:00,216:INFO:load_model(model_name=data\model\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-20 15:32:53,131:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:32:53,131:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:32:53,131:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:32:53,131:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:32:53,844:INFO:Initializing load_model()
+2026-01-20 15:32:53,844:INFO:load_model(model_name=data\model\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-20 15:45:12,442:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:45:12,442:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:45:12,442:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:45:12,442:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:45:13,218:INFO:Initializing load_model()
+2026-01-20 15:45:13,219:INFO:load_model(model_name=data\model\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-20 15:53:43,397:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:53:43,397:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:53:43,397:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:53:43,397:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:53:44,079:INFO:Initializing load_model()
+2026-01-20 15:53:44,079:INFO:load_model(model_name=data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-20 15:55:04,739:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:55:04,739:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:55:04,739:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:55:04,739:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:55:05,409:INFO:Initializing load_model()
+2026-01-20 15:55:05,409:INFO:load_model(model_name=data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-20 15:56:51,220:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:56:51,220:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:56:51,220:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:56:51,221:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:56:51,889:INFO:Initializing load_model()
+2026-01-20 15:56:51,889:INFO:load_model(model_name=projekt\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-20 15:57:36,846:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:57:36,846:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:57:36,846:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:57:36,846:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-20 15:57:37,516:INFO:Initializing load_model()
+2026-01-20 15:57:37,516:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 12:03:09,225:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 12:03:09,226:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 12:03:09,226:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 12:03:09,226:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 12:03:10,032:INFO:Initializing load_model()
+2026-01-21 12:03:10,032:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 12:07:16,271:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 12:07:16,271:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 12:07:16,271:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 12:07:16,272:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 12:07:16,971:INFO:Initializing load_model()
+2026-01-21 12:07:16,971:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 12:45:40,219:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 12:45:40,220:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 12:45:40,220:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 12:45:40,220:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 12:45:41,349:INFO:Initializing load_model()
+2026-01-21 12:45:41,349:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 12:51:29,928:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 12:51:29,928:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 12:51:29,928:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 12:51:29,929:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 12:51:30,969:INFO:Initializing load_model()
+2026-01-21 12:51:30,969:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 13:00:19,611:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:00:19,611:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:00:19,611:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:00:19,611:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:00:20,732:INFO:Initializing load_model()
+2026-01-21 13:00:20,732:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 13:01:08,138:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:01:08,138:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:01:08,138:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:01:08,138:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:01:09,238:INFO:Initializing load_model()
+2026-01-21 13:01:09,238:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 13:02:17,903:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:02:17,903:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:02:17,903:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:02:17,903:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:02:19,037:INFO:Initializing load_model()
+2026-01-21 13:02:19,037:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 13:03:33,935:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:03:33,935:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:03:33,936:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:03:33,936:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:03:35,023:INFO:Initializing load_model()
+2026-01-21 13:03:35,023:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 13:06:08,192:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:06:08,192:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:06:08,192:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:06:08,192:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:06:09,270:INFO:Initializing load_model()
+2026-01-21 13:06:09,270:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 13:08:11,560:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:08:11,560:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:08:11,560:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:08:11,560:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:08:12,628:INFO:Initializing load_model()
+2026-01-21 13:08:12,628:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 13:09:05,347:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:09:05,347:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:09:05,347:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:09:05,348:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:09:06,466:INFO:Initializing load_model()
+2026-01-21 13:09:06,467:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 13:10:25,882:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:10:25,882:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:10:25,882:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:10:25,882:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:10:26,920:INFO:Initializing load_model()
+2026-01-21 13:10:26,920:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 13:11:04,025:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:11:04,025:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:11:04,025:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:11:04,025:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:11:05,173:INFO:Initializing load_model()
+2026-01-21 13:11:05,173:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 13:17:08,464:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:17:08,464:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:17:08,464:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:17:08,464:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:17:09,560:INFO:Initializing load_model()
+2026-01-21 13:17:09,560:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 13:17:59,511:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:17:59,511:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:17:59,511:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:17:59,511:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:18:00,562:INFO:Initializing load_model()
+2026-01-21 13:18:00,562:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 13:20:23,665:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:20:23,666:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:20:23,666:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:20:23,666:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:20:24,767:INFO:Initializing load_model()
+2026-01-21 13:20:24,768:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 13:25:48,476:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:25:48,476:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:25:48,476:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:25:48,476:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:25:49,528:INFO:Initializing load_model()
+2026-01-21 13:25:49,528:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 13:29:39,126:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:29:39,126:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:29:39,126:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:29:39,126:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:29:40,223:INFO:Initializing load_model()
+2026-01-21 13:29:40,224:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 13:31:55,750:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:31:55,750:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:31:55,750:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:31:55,751:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:31:56,832:INFO:Initializing load_model()
+2026-01-21 13:31:56,832:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 13:33:57,619:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:33:57,619:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:33:57,620:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:33:57,620:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:34:18,986:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:34:18,986:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:34:18,986:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:34:18,986:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:34:20,036:INFO:Initializing load_model()
+2026-01-21 13:34:20,036:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 13:46:49,714:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:46:49,714:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:46:49,714:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:46:49,715:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:46:50,766:INFO:Initializing load_model()
+2026-01-21 13:46:50,766:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 13:59:02,535:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:59:02,535:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:59:02,535:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:59:02,535:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 13:59:03,766:INFO:Initializing load_model()
+2026-01-21 13:59:03,766:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 14:04:08,819:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:04:08,819:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:04:08,819:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:04:08,819:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:04:09,928:INFO:Initializing load_model()
+2026-01-21 14:04:09,928:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 14:05:53,588:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:05:53,588:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:05:53,588:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:05:53,588:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:05:55,059:INFO:Initializing load_model()
+2026-01-21 14:05:55,059:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 14:07:34,457:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:07:34,458:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:07:34,458:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:07:34,458:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:07:35,483:INFO:Initializing load_model()
+2026-01-21 14:07:35,483:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 14:19:39,583:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:19:39,583:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:19:39,583:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:19:39,583:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:19:40,656:INFO:Initializing load_model()
+2026-01-21 14:19:40,656:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 14:22:33,742:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:22:33,742:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:22:33,743:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:22:33,743:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:22:34,815:INFO:Initializing load_model()
+2026-01-21 14:22:34,815:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 14:26:10,802:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:26:10,802:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:26:10,803:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:26:10,803:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:26:11,897:INFO:Initializing load_model()
+2026-01-21 14:26:11,897:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 14:26:52,759:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:26:52,759:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:26:52,760:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:26:52,760:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:26:53,763:INFO:Initializing load_model()
+2026-01-21 14:26:53,763:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 14:27:48,390:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:27:48,390:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:27:48,390:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:27:48,390:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:27:49,479:INFO:Initializing load_model()
+2026-01-21 14:27:49,479:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 14:31:14,015:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:31:14,015:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:31:14,015:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:31:14,015:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:31:15,088:INFO:Initializing load_model()
+2026-01-21 14:31:15,089:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 14:32:33,544:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:32:33,544:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:32:33,544:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:32:33,544:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:32:52,533:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:32:52,533:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:32:52,533:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:32:52,533:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:33:09,451:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:33:09,451:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:33:09,451:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:33:09,451:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:33:10,524:INFO:Initializing load_model()
+2026-01-21 14:33:10,524:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 14:35:02,909:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:35:02,909:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:35:02,909:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:35:02,909:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:35:44,158:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:35:44,158:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:35:44,158:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:35:44,158:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:37:01,564:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:37:01,564:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:37:01,564:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:37:01,564:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:51:47,205:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:51:47,205:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:51:47,205:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:51:47,205:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:52:02,478:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:52:02,478:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:52:02,478:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:52:02,478:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:52:36,131:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:52:36,131:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:52:36,131:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:52:36,131:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:52:37,215:INFO:Initializing load_model()
+2026-01-21 14:52:37,215:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 14:53:26,382:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:53:26,382:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:53:26,382:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:53:26,382:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:53:27,474:INFO:Initializing load_model()
+2026-01-21 14:53:27,474:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 14:54:08,756:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:54:08,756:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:54:08,756:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:54:08,756:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:54:09,827:INFO:Initializing load_model()
+2026-01-21 14:54:09,827:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 14:55:26,461:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:55:26,461:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:55:26,461:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:55:26,461:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:55:27,531:INFO:Initializing load_model()
+2026-01-21 14:55:27,531:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 14:56:21,348:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:56:21,348:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:56:21,348:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:56:21,348:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:56:22,416:INFO:Initializing load_model()
+2026-01-21 14:56:22,416:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 14:59:35,362:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:59:35,362:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:59:35,362:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:59:35,362:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 14:59:36,452:INFO:Initializing load_model()
+2026-01-21 14:59:36,452:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 15:00:40,709:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:00:40,709:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:00:40,709:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:00:40,709:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:01:45,883:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:01:45,884:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:01:45,884:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:01:45,884:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:01:47,157:INFO:Initializing load_model()
+2026-01-21 15:01:47,158:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 15:06:20,830:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:06:20,830:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:06:20,830:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:06:20,830:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:06:22,080:INFO:Initializing load_model()
+2026-01-21 15:06:22,080:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 15:07:08,752:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:07:08,752:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:07:08,752:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:07:08,752:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:07:09,842:INFO:Initializing load_model()
+2026-01-21 15:07:09,842:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 15:09:41,932:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:09:41,932:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:09:41,932:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:09:41,932:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:09:43,023:INFO:Initializing load_model()
+2026-01-21 15:09:43,024:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 15:11:01,604:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:11:01,604:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:11:01,604:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:11:01,604:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:11:02,687:INFO:Initializing load_model()
+2026-01-21 15:11:02,687:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 15:11:35,680:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:11:35,681:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:11:35,681:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:11:35,681:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:11:36,837:INFO:Initializing load_model()
+2026-01-21 15:11:36,837:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 15:12:07,001:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:12:07,001:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:12:07,001:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:12:07,001:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:12:08,287:INFO:Initializing load_model()
+2026-01-21 15:12:08,287:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 15:13:21,101:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:13:21,101:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:13:21,101:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:13:21,101:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:13:22,211:INFO:Initializing load_model()
+2026-01-21 15:13:22,211:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 15:13:45,342:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:13:45,342:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:13:45,342:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:13:45,342:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:13:46,470:INFO:Initializing load_model()
+2026-01-21 15:13:46,470:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 15:15:24,059:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:15:24,059:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:15:24,059:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:15:24,059:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 15:15:25,177:INFO:Initializing load_model()
+2026-01-21 15:15:25,177:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)
+2026-01-21 16:32:30,432:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 16:32:30,432:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 16:32:30,432:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 16:32:30,432:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-01-21 16:32:31,668:INFO:Initializing load_model()
+2026-01-21 16:32:31,668:INFO:load_model(model_name=projekt\AutoML_pipeline\data\models\apartment_price_model, platform=None, authentication=None, verbose=True)

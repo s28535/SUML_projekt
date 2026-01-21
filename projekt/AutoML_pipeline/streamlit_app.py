@@ -2,8 +2,12 @@ import streamlit as st
 import pandas as pd
 from pathlib import Path
 from pycaret.regression import load_model
+import folium
+from streamlit_folium import st_folium
+from geopy.distance import geodesic
+import math
 
-MODEL_PATH = Path("data/model/apartment_price_model")
+MODEL_PATH = Path("projekt/AutoML_pipeline/data/models/apartment_price_model")
 
 st.set_page_config(page_title="Kalkulator Cen Mieszkań w Warszawie (AutoML)", layout="wide")
 
@@ -23,6 +27,51 @@ if model is None:
     st.stop()
 
 st.header("Wprowadź dane mieszkania")
+
+
+
+
+
+
+
+
+
+centerX = 52.2354167
+centerY = 21.0074722
+xDistanceSquare = 0
+yDistanceSquare = 0
+centre_distance = 0
+
+
+
+
+
+
+m = folium.Map(location=[centerX, centerY], zoom_start=12)
+
+
+
+
+map = st_folium(m, width=700, height=500)
+
+if map.get("last_clicked"):
+    x = map["last_clicked"]["lat"]
+    y = map["last_clicked"]["lng"]
+    st.session_state.marker_location = [x, y]
+
+
+
+    xDistanceSquare = (x - centerX)**2
+    yDistanceSquare = (y - centerY)**2
+    centre_distance = geodesic((centerX, centerY), (x, y)).kilometers
+    st.write(f"Odległość od centrum: ", centre_distance)
+
+
+
+
+
+
+
 
 col1, col2 = st.columns(2)
 
@@ -119,7 +168,6 @@ CENTER_X = 52.2354167
 CENTER_Y = 21.0074722
 latitude = CENTER_X
 longitude = CENTER_Y
-centre_distance = 0
 
 st.markdown("---")
 
@@ -167,6 +215,7 @@ if st.button("Oblicz cenę", type="primary", use_container_width=True):
         info_col1, info_col2 = st.columns(2)
 
         with info_col1:
+            st.write(f"**Dystans od centrum:** {centre_distance} m²")
             st.write(f"**Powierzchnia:** {square_meters} m²")
             st.write(f"**Liczba pokoi:** {rooms}")
             st.write(f"**Rok budowy:** {build_year}")

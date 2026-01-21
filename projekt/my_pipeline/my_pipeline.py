@@ -257,7 +257,7 @@ def train_and_evaluate_models(X, y):
         mape = np.mean(np.abs((y_test - y_pred) / np.where(y_test != 0, y_test, 1))) * 100
         
         results[name] = {
-            'model': model,
+            'models': model,
             'mse': mse,
             'rmse': rmse,
             'mae': mae,
@@ -272,7 +272,7 @@ def train_and_evaluate_models(X, y):
     
     # Wybór najlepszego modelu (najniższy RMSE)
     best_model_name = min(results.keys(), key=lambda x: results[x]['rmse'])
-    best_model = results[best_model_name]['model']
+    best_model = results[best_model_name]['models']
     
     print("\n" + "=" * 50)
     print("PODSUMOWANIE WYNIKÓW:")

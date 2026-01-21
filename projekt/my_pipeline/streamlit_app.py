@@ -142,7 +142,7 @@ if st.button("Oblicz cenę", type="primary", use_container_width=True):
         
         ownership_cooperative = 1 if ownership == 'cooperative' else 0
         
-        # Tworzenie DataFrame w dokładnej kolejności jaką oczekuje model
+        # Tworzenie DataFrame w dokładnej kolejności jaką oczekuje models
         df_input = pd.DataFrame({
             'squareMeters': [square_meters],
             'rooms': [rooms],

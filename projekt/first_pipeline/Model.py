@@ -66,7 +66,7 @@ class ModelMyNN(nn.Module):
 
         plt.plot(self.losses)
         plt.title('Loss over generations')
-        plt.savefig('data/Charts/lossesOverTime.png')
+        plt.savefig('data/charts/lossesOverTime.png')
         plt.show()
 
         Path("data/models").mkdir(parents=True, exist_ok=True)
@@ -90,19 +90,19 @@ class AutoML():
 
         # Porównanie modeli
         best = compare_models()
-        print(f"Najlepszy model: {best}")
+        print(f"Najlepszy models: {best}")
 
 
 
 
         # Generowanie wykresów
-        plots = [
-                 'feature', 'feature_all','error','residuals','learning']
+ #       plots = [
+#                 'feature', 'feature_all','error','residuals','learning']
 
         Path("data/Reporting").mkdir(parents=True, exist_ok=True)
-        for p in plots:
+  #      for p in plots:
 
-            plot_model(best, plot=p, save=True, display_format='streamlit')
+#            plot_model(best, plot=p, save=True, display_format='streamlit')
 
 
 
